@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (!)**')
+        .setDescription('**برفكس البوت (*)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -353,4 +353,4 @@ client.user.setGame(`1play | Last Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTA3MTAwOTU1Njc5MTI5NjAx.Drryag.8E339w9ykJPXooiL55uPHXWyeaU);
